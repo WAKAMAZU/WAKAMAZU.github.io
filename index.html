@@ -61,6 +61,61 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hexo-grunt" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/12/29/hexo-grunt/" class="article-date">
+  <time datetime="2015-12-29T14:02:48.000Z" itemprop="datePublished">2015-12-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/29/hexo-grunt/">hexo-grunt</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>hexo を使用してGitHub Pages の自分のサイトに[hexo d -g]でファイルを更新すると、<br>今迄置いていたファイル全体にわたって更新される様なので、新規に作成したファイルのみを<br>GitHub pagesに[deploy]したいと思い、検索してみた。<br>ファイルの中を「以前と異る物」を指定して、hexoから「deploy」出来れば良いのでは無いか？<br>参考サイトは[<a href="http://qiita.com/f_prg/items/6ae37071efe35b2ec7ee]だが、" target="_blank" rel="external">http://qiita.com/f_prg/items/6ae37071efe35b2ec7ee]だが、</a><br>果して此処に書かれているような、「設定」が出来上がれば、目的が果せるのか？？<br>とにかく<br>「grunt-cliのnpmのパッケージのインストール」をhexo で使用しているフォルダに追加する。<br>しかし、<br>A. <a href="gruntのセットアップの為">awsのcredentialのjsonファイルを作成</a><br>B. [AWSのキーとシークレットを外部のjsonファイルで管理します]<br>等、本文中の略語が判らない。</p>
+<h2 id="u65E9_u901F_u3001_u30A4_u30F3_u30BF_u30FC_u30CD_u30C3_u30C8_u3067_u306E_u691C_u7D22_u3092_u5B9F_u884C_uFF01"><a href="#u65E9_u901F_u3001_u30A4_u30F3_u30BF_u30FC_u30CD_u30C3_u30C8_u3067_u306E_u691C_u7D22_u3092_u5B9F_u884C_uFF01" class="headerlink" title="早速、インターネットでの検索を実行！"></a>早速、インターネットでの検索を実行！</h2><p>音楽家には不明の事柄ばかりです。</p>
+<p>1.設定の中に有る「AWS」とは？</p>
+<p>[『AWS』とは、Amazon Web Services（アマゾンウェブサービス‎）の略称で、 Amazon.com社が行っているサービスの名称]と有るが、此の事か？<br>又、サイトの記事を書いたのが「Web開発業務に携わる人」との事らしいので</p>
+<ol>
+<li><p>「gurnt-aws-s3プラグインを追加」と言う所は、<br>「「Amazon S3」：データストレージサービスです。 データの格納と取り出しに特化しています。 コンテンツのストレージや配信する際などに使用されます。」と書かれたプラグインの事か？？</p>
+</li>
+<li><p>[<a href="http://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html" target="_blank" rel="external">http://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html</a>]<br>の 下の方に「AWS Command Line Interface on GitHub」 と言う記事が有ったので、移動。</p>
+</li>
+</ol>
+<p>又、「Before you can start using the AWS Command Line Interface, you must sign up for an AWS account (if you don’t already have one) and set up your CLI environment.」とも書いているので、<br>本年度はペンディングとし、[<a href="https://github.com/aws/aws-cli]に色々説明が有るので、" target="_blank" rel="external">https://github.com/aws/aws-cli]に色々説明が有るので、</a><br>新年にトライする事にしよう。</p>
+<p>現在の心境としては、「README.mdだけの為に、此処まで手当をする必要が有る？？」と言った疑問のみが先行して来るのだが。</p>
+<p>参考サイトの「まとめ」には</p>
+<p>「今までは静的サイトを生成してからCyberduckを使ってアップロードしてましたが、更に簡単になりました。」と有り、</p>
+<p>さらに書かれている「productionの本番サイトはオプションのdifferentialにより、更新したファイルだけアップされるようになりました。」</p>
+<p>と言う意味は「Cyberduck」での環境設定での</p>
+<p>「転送」→「アップロード」→「重複ファイル」での</p>
+<p>「Compare」を指定するだけで良い話と判り、</p>
+<p>一寸した落し話の様相を呈しました。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/12/29/hexo-grunt/" data-id="ciirgy17m0004bo8a89yj9cyw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-morphology" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/12/29/morphology/" class="article-date">
@@ -107,7 +162,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/29/morphology/" data-id="ciiqzkyeu0003t58asb6lcb4w" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/29/morphology/" data-id="ciirgy17h0003bo8ah1gjgf3h" class="article-share-link">Share</a>
       
       
     </footer>
@@ -149,7 +204,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/28/setting/" data-id="ciiqzkyek0001t58api8o8qvr" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/28/setting/" data-id="ciirgy1760001bo8ayd1znfmx" class="article-share-link">Share</a>
       
       
     </footer>
@@ -186,7 +241,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/28/about-hexo/" data-id="ciiqzkyfb0006t58aogjgydxd" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/28/about-hexo/" data-id="ciirgy1830007bo8a0u62yk76" class="article-share-link">Share</a>
       
       
     </footer>
@@ -223,7 +278,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/27/genji/" data-id="ciiqzkyf40005t58ad0dcd5uh" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/27/genji/" data-id="ciirgy17y0006bo8avrwbv6r2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -263,7 +318,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/27/my-blog/" data-id="ciiqzkyeo0002t58av3zd5oy7" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/27/my-blog/" data-id="ciirgy17b0002bo8a6kn6130m" class="article-share-link">Share</a>
       
       
     </footer>
@@ -308,7 +363,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/27/hello-world/" data-id="ciiqzkyey0004t58afozv2qji" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/27/hello-world/" data-id="ciirgy17s0005bo8a4wcqceu2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -349,7 +404,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/25/My-New-Post/" data-id="ciiqzkydt0000t58abxo5euf4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/25/My-New-Post/" data-id="ciirgy16v0000bo8arb0i83v8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -374,7 +429,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">7</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">8</span></li></ul>
     </div>
   </div>
 
@@ -384,6 +439,10 @@
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2015/12/29/hexo-grunt/">hexo-grunt</a>
+          </li>
         
           <li>
             <a href="/2015/12/29/morphology/">morphology</a>
@@ -399,10 +458,6 @@
         
           <li>
             <a href="/2015/12/27/genji/">genji</a>
-          </li>
-        
-          <li>
-            <a href="/2015/12/27/my-blog/">my-blog</a>
           </li>
         
       </ul>
