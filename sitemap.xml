@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/01/01/happy-new-year/</loc>
+    <lastmod>2016-01-01T11:25:48.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/12/31/about-blockquote/</loc>
-    <lastmod>2015-12-31T08:11:58.000Z</lastmod>
+    <lastmod>2015-12-31T08:13:29.000Z</lastmod>
   </url>
   
   <url>
