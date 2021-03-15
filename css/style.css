@@ -628,7 +628,7 @@ a.article-title:hover {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.4em;
   margin: 1.6em 20px;
-  text-align: left;
+  text-align: center;
 }
 .article-entry blockquote footer {
   font-size: 14px;
@@ -1166,6 +1166,9 @@ a.article-title:hover {
 }
 .article-entry .highlight .line {
   height: 22.400000000000002px;
+}
+.article-entry .highlight .line.marked {
+  background: #515151;
 }
 .article-entry .gist {
   margin: 0 -20px;
